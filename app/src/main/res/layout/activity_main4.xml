@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/layout">
+
+
+    <Button
+        android:id="@+id/kadınhaklari"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/sekil"
+        android:text="KADIN HAKLARI"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/gocmensorunu"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="145dp"
+        android:background="@drawable/sekil"
+        android:text="GÖÇMEN SORUNU"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/suc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/sekil"
+        android:text="SUÇ,CEZA VE ŞİDDET"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/teknoloji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/sekil"
+        android:text="TEKNOLOJİ"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/issizlik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="285dp"
+        android:background="@drawable/sekil"
+        android:text="İŞSİZLİK"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/sosyal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="364dp"
+        android:background="@drawable/sekil"
+        android:text="Sosyal Aktiviteler"
+        android:textColor="#fff" />
+
+
+</RelativeLayout>

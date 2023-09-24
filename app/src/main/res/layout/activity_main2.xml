@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/layout"
+  >
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/AppBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp">
+
+
+
+
+
+        <ImageButton
+            android:id="@+id/add_new_post_button"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/AppBarLayout"
+            android:background="@color/colorPrimary"
+            android:src="@drawable/profil"
+            />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="match_parent"
+        android:layout_height="184dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/cicek" />
+
+    <Button
+        android:id="@+id/uzman"
+        android:layout_width="273dp"
+        android:layout_height="91dp"
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="188dp"
+        android:background="@drawable/sekil_button"
+        android:text="Derdini Uzmanına Anlat"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/uzman1"
+        android:layout_width="273dp"
+        android:layout_height="91dp"
+
+
+        android:layout_alignStart="@+id/uzman"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="72dp"
+        android:background="@drawable/sekil_button"
+        android:text="Sorunlarım"
+        android:textColor="#fff" />
+
+
+
+</RelativeLayout>

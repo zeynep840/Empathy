@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name= "kayanyazilarimiz">
+        <item>Uzman</item>
+        <item>Danışmanımız</item>
+        <item>Çok</item>
+        <item>Yakında</item>
+        <item>Sizlerle</item>
+
+    </string-array>
+</resources>

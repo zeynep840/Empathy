@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "11606722779",
+    "firebase_url": "https://empati-f75b4.firebaseio.com",
+    "project_id": "empati-f75b4",
+    "storage_bucket": "empati-f75b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11606722779:android:ea64379fa194c318",
+        "android_client_info": {
+          "package_name": "com.fapps.empati"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11606722779-i0ljp801e3u1sajtokujefr5s1ukqhea.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fapps.empati",
+            "certificate_hash": "8df772f2a66400766d3cd17105e1b7adccd0bae3"
+          }
+        },
+        {
+          "client_id": "11606722779-272g9jubvrmaf0cvqaks2nh65p17lgj7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbIYsTIW0zNVs1LQ0ismMBO8ag3aVLbDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11606722779-272g9jubvrmaf0cvqaks2nh65p17lgj7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

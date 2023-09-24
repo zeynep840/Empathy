@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    android:background="@drawable/gradient_list"
+    tools:context=".ClickPostIssizlikActivity">
+
+    <TextView
+        android:id="@+id/yorum_yapmak1"
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="247dp"
+        android:background="@android:color/white"
+        android:text="Post Açıklaması" />
+
+    <Button
+        android:id="@+id/postkaydet1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="156dp"
+         android:background="@drawable/sekil"
+        android:text="Postu Güncelle" />
+
+    <Button
+        android:id="@+id/postsil1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="82dp"
+        android:background="@drawable/beyaz"
+        android:text="Postu Sil" />
+
+</RelativeLayout>

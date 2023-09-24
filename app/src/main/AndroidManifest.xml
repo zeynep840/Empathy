@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fapps.empati"
+    android:versionCode="17"
+    android:versionName="2.6">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Main2Activity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register1Activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".PostActivity" />
+        <activity
+            android:name=".Main3Activity"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".Main4Activity"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".Main5Activity"
+            android:parentActivityName=".Main2Activity" />
+        <activity android:name=".Post2Activity" />
+        <activity android:name=".Comments1Activity" />
+        <activity android:name=".ClickPost1Activity" />
+        <activity android:name=".Post3Activity" />
+        <activity android:name=".Comments2Activity" />
+        <activity android:name=".ClickPostActivity" />
+        <activity android:name=".ClickPost2Activity" />
+        <activity android:name=".Post1Activity" />
+        <activity android:name=".CommentsActivity" />
+        <activity android:name=".OzelSorunlarActivity" />
+        <activity android:name=".Posts4Activity" />
+        <activity android:name=".OzelSorunlarYorumActivity" />
+        <activity android:name=".ClickPostOzelSorunlarActivity" />
+        <activity
+            android:name=".HayvanActivity"
+            android:parentActivityName=".Main2Activity" />
+        <activity android:name=".HayvanPostActivity" />
+        <activity android:name=".HayvanYorumActivity" />
+        <activity android:name=".ClickPostHayvanActivity" />
+        <activity
+            android:name=".TurizmActivity"
+            android:parentActivityName=".Main2Activity" />
+        <activity android:name=".TurizmPostActivity" />
+        <activity android:name=".TurizmYorumActivity" />
+        <activity android:name=".ClickPostTurizmActivity" />
+        <activity
+            android:name=".UzmaninaDanisActivity"
+            android:parentActivityName=".UzmanDanismanimActivity" />
+        <activity
+            android:name=".KadinHaklariActivity"
+            android:parentActivityName=".Main4Activity" />
+        <activity android:name=".KadinHaklariPostActivity" />
+        <activity android:name=".KadinHaklariYorumActivity" />
+        <activity android:name=".ClickPostKadinHaklariActivity" />
+        <activity
+            android:name=".SucActivity"
+            android:parentActivityName=".Main4Activity" />
+        <activity android:name=".SucPostActivity" />
+        <activity android:name=".SucYorumActivity" />
+        <activity android:name=".ClickPostSucActivity" />
+        <activity
+            android:name=".GocmenActivity"
+            android:parentActivityName=".Main4Activity" />
+        <activity android:name=".GocmenPostActivity" />
+        <activity android:name=".GocmenYorumActivity" />
+        <activity android:name=".ClickPostGocmenActivity" />
+        <activity
+            android:name=".TeknolojiActivity"
+            android:parentActivityName=".Main4Activity" />
+        <activity android:name=".TeknolojiPostActivity" />
+        <activity android:name=".TeknolojiYorumActivity" />
+        <activity android:name=".ClickPostTeknolojiActivity" />
+        <activity
+            android:name=".IssizlikActivity"
+            android:parentActivityName=".Main4Activity" />
+        <activity android:name=".IssizlikPostActivity" />
+        <activity android:name=".IssizlikYorumActivity" />
+        <activity android:name=".ClickPostIssizlikActivity" />
+        <activity
+            android:name=".SosyalActivity"
+            android:parentActivityName=".Main4Activity" />
+        <activity android:name=".SosyalPostActivity" />
+        <activity android:name=".SosyalYorumActivity" />
+        <activity android:name=".ClickPostSosyalActivity" />
+        <activity android:name=".UzmanDanismanimActivity" />
+        <activity android:name=".SorunlarActivity"></activity>
+    </application>
+
+</manifest>

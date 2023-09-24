@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SorunlarActivity"
+
+    android:background="@drawable/gradient_list"
+    android:id="@+id/layout">
+
+    <Button
+
+
+        android:id="@+id/button23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:background="@drawable/sekil_button"
+        android:text="SAĞLIK "
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/toplumsal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_below="@+id/button23"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/sekil_button"
+        android:text="TOPLUMSAL "
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_below="@+id/toplumsal"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/sekil_button"
+        android:text="EĞİTİM "
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+
+        android:id="@+id/imageView56"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/sekil_button"
+        android:text="Özel Sorunlar
+"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+
+        android:id="@+id/imageView57"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="243dp"
+        android:background="@drawable/sekil_button"
+        android:text="HAYVAN
+"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+
+        android:id="@+id/imageView58"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="309dp"
+        android:background="@drawable/sekil_button"
+        android:text="TURİZM
+"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>
